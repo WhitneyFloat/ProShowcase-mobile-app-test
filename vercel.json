@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/build/web/index.html"
+      "destination": "/build/web/$1"
     }
   ]
 }
